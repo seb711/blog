@@ -4,15 +4,5 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My name is Sebastian Kosak and I am currently in my first PhD year at TUM under the supervision of Prof. Dr. Viktor Leis. My work mostly covers the intersection between Operating Systems and Database Systems. In the last few years we started TUMuchData and revived the Alex Petrov's Munich Database Meetup. When I am not researching or organizing, I like to spend my time reading and tinkering (3D modelling/prining, graphic design). If you see me without a ClubMate I am most probably not working and free to chat. Happy to make this blog my space to talk about different topics!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
