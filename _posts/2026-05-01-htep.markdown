@@ -98,6 +98,7 @@ So i checked out the kernel logs to check if the kernel has something to say abo
 ```
 
 Ok so in the end it seems to be a skillissue on my side and I have somehow misconfigured the BIOS on my machine.
+[update (25.05.2026): after upgrading my kernel to version 7 this issue seems to be resolved]
 After forcing the use of TSC the results were the following:
 
 | hash_fn | time | cycle | kcycle | IPC | GHz |
@@ -111,7 +112,7 @@ After forcing the use of TSC the results were the following:
 ## Act V: Why Does HPET Cost So Much?
 
 Hugh, great! But why does it cost more to read from HPET than TSC.
-As it seems this is also a problem in audio and gaming, therefore I refer to this article: https://griggaudio.de/2026/01/03/wie-dein-pc-timer-tickt/
+As it seems this is also a problem in audio and gaming, therefore I refer to this article: [OSDev HPET](https://wiki.osdev.org/HPET)
 The HPET timer has a access latency of an additional 500-1000ns. So this is almost doubling the cost.
 Where the additional factor 5 is coming from is not 100% clear to me but this is also probably related to the access path of HPET (the interrupt takes approx. 10us on avg.).
 
