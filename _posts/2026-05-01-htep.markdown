@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HPET, i want my labor day back!"
-date: 2026-05-25
+date: 2026-05-01
 categories: [systems, performance, linux]
 tags: [hpet, tsc, benchmarking, hash-functions, linux, perf, pmc]
 ---
