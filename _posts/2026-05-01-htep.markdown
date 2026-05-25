@@ -75,7 +75,7 @@ perf record -e k:cycles --count=100000 --call-graph dwarf ./hash-bench
 
 This resulted in the following two flamegraphs (left is Framework, right is Workstation):
 
-| ![]({{ site.baseurl }}/assets/images/htep/flame.svg)  | ![]({{ site.baseurl }}/assets/images/htep/flame_office.svg) | relative_url) |
+| ![]({{ site.baseurl }}/assets/images/htep/flame.svg)  | ![]({{ site.baseurl }}/assets/images/htep/flame_office.svg) |
 |:---:|:---:|
 | Framework | Workstation |
 
